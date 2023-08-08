@@ -1,1 +1,193 @@
 
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.clicker {
+  margin-top: 100px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+#counter {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+nav {
+  margin: 20px 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+a {
+  display: inline-block;
+  font-size: 18px;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+a:hover {
+  background-color: #0056b3;
+}
+
+button {
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Ваш стиль для body, .clicker, h1, #counter, nav и кнопок как указано ранее */
+
+/* Ваш стиль для body, .clicker, h1, #counter, nav и кнопок как указано ранее */
+
+/* Ваши стили для body, .clicker, h1, #counter, nav и кнопок как указано ранее */
+
+footer {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  font-size: 14px;
+  color: #333;
+  margin: 0;
+}
+/* Ваши стили для body, .clicker, h1, #counter, nav как указано ранее */
+
+.animated-button {
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s, transform 0.2s ease-out;
+}
+
+.animated-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.click-animation {
+  animation: clickScale 0.2s ease-out;
+}
+
+@keyframes clickScale {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(0.9);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  75% {
+    transform: scale(0.95);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+/* Ваши стили для body, .clicker, h1, #counter, nav как указано ранее */
+
+/* Ваши стили для .animated-button и других элементов */
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.close-button {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close-button:hover,
+.close-button:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Ваши стили для footer как указано ранее */
+/* Общие стили для всех устройств */
+
+/* Стили для ПК */
+@media (min-width: 768px) {
+  /* Ваши стили для body, .clicker, h1, #counter, nav и кнопок как указано ранее */
+}
+
+/* Стили для телефонов */
+@media (max-width: 767px) {
+  /* Ваши стили для body, .clicker, h1, #counter, nav и кнопок как указано ранее */
+
+  /* Дополнительные стили для адаптации под мобильные устройства */
+  body {
+    font-size: 16px;
+  }
+
+  .clicker {
+    margin: 20px;
+  }
+}
+
+/* Общие стили для всех устройств */
+
+/* Ваши стили для footer как указано ранее */
