@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Кликер с меню и подвалом</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="#" id="resetButton" class="animated-button">Сбросить</a></li>
+      <li><a href="#" id="saveButton" class="animated-button">Сохранить</a></li>
+      <li><a href="#" id="loadButton" class="animated-button">Загрузить</a></li>
+    </ul>
+  </nav>
+
+  <div class="clicker">
+    <h1>Количество кликов:</h1>
+    <p id="counter">0</p>
+    <button id="clickButton" class="animated-button click-animation" >Кликни меня!</button>
+  <div id="timerModal" class="modal">
+  
+ 
+<div class="modal-content">
+    
+    <
+
+   
+<span class="close-button">&times;</span>
+    
+   
+<p>За 10 секунд вы кликнули <span id="modalClickCount">0</span> раз!</p>
+  
+ 
+</div>
+</div>
+  <footer>
+    <p>&copy; 2023 Ваше имя или компания. Все права защищены.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
